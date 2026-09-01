@@ -5,10 +5,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ==============================================================================
-# 🔑 КОНФИГУРАЦИЯ БОТА WORLD PROJECT
+# 🔑 КОНФИГУРАЦИЯ БОТА WORLD PROJECT (БЕРЕТСЯ ТОЛЬКО ИЗ .ENV / ПАНЕЛИ ХОСТИНГА)
 # ==============================================================================
 
-DISCORD_TOKEN = os.getenv("DISCORD_TOKEN", "MTIxMjg0NzcxMzU5MTQ5Njc0Ng.GvMhaF.dnd4qaNng4Zq0qhaifyNBbz0kDuqB6zNaLtkiE").strip()
+# Токен берется исключительно из переменных окружения
+DISCORD_TOKEN = os.getenv("DISCORD_TOKEN", "").strip()
 
 guild_id_raw = os.getenv("GUILD_ID", "1544384719230345306")
 GUILD_ID = int(guild_id_raw) if guild_id_raw.isdigit() else 1544384719230345306
@@ -19,14 +20,14 @@ BOT_STEAM_TRADE_URL = os.getenv(
 )
 
 STEAM_LOGIN = os.getenv("STEAM_LOGIN", "dannygaines7p")
-STEAM_PASSWORD = os.getenv("STEAM_PASSWORD", "XWBJEx2cYy1987")
+STEAM_PASSWORD = os.getenv("STEAM_PASSWORD", "")
 STEAM_API_KEY = os.getenv("STEAM_API_KEY", "")
 MAFILE_PATH = os.getenv("MAFILE_PATH", "bot.maFile")
 
 SFTP_HOST = os.getenv("SFTP_HOST", "sftp.discord.fra1.shockbyte.host")
 SFTP_PORT = int(os.getenv("SFTP_PORT", 2222))
 SFTP_USER = os.getenv("SFTP_USER", "default@38bdde82-0ac4-4728-b5ac-1125fcfe1922")
-SFTP_PASS = os.getenv("SFTP_PASS", "RustServerPass123!")
+SFTP_PASS = os.getenv("SFTP_PASS", "")
 SFTP_BASE_DIR = os.getenv("SFTP_BASE_DIR", "/1. WORLD")
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
