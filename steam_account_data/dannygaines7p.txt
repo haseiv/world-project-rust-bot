@@ -1,0 +1,14 @@
+{
+"Contry": "Russian Federation",
+"SteamLogin": "dannygaines7p",
+"SteamPassword": "XWBJEx2cYy1987",
+"SteamTradeLink": "https://steamcommunity.com/tradeoffer/new/?partner=811445940&token=stw_E1-n",
+"EmailLogin": "andrewmartiniitt@hotmail.com",
+"EmailPassword": "ShE500BJSB",
+"Steamid": "76561198771711668",
+"TimeAddGuard": "2.11.2025 1:53:44",
+"Steam2faSharedSecret": "SYCuRDDG9ZzLeL/96DFpJ/NCH8Y=",
+"IdentitySecret": "uJNi3PrNxv5IGRlAt5KwF+sAAtQ=",
+"Secret_1": "Hvu2QDdLdwDsm+VqYspSBql/ClU=",
+"Steam2faRevocationCode": "R52053"
+}

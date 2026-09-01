@@ -1,0 +1,21 @@
+{
+  "AcceptGifts": true,
+  "AutoSteamSaleEvent": true,
+  "BotBehaviour": 0,
+  "Enabled": true,
+  "FarmingOrders": [
+    0
+  ],
+  "MatchableTypes": [
+    1,
+    3,
+    5
+  ],
+  "SteamLogin": "dannygaines7p",
+  "SteamPassword": "XWBJEx2cYy1987",
+  "SteamTradeToken": null,
+  "SteamUserPermissions": {
+    "76561190000000000": 3
+  },
+  "TradingPreferences": 1
+}
