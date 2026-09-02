@@ -30,6 +30,10 @@ SFTP_USER = os.getenv("SFTP_USER", "default@38bdde82-0ac4-4728-b5ac-1125fcfe1922
 SFTP_PASS = os.getenv("SFTP_PASS", "")
 SFTP_BASE_DIR = os.getenv("SFTP_BASE_DIR", "/1. WORLD")
 
+RCON_HOST = os.getenv("RCON_HOST", "157.85.95.101")
+RCON_PORT = int(os.getenv("RCON_PORT", "29416"))
+RCON_PASS = os.getenv("RCON_PASS", "")
+
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 os.makedirs(DATA_DIR, exist_ok=True)
 
